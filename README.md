@@ -60,13 +60,13 @@ There are times when we see various terms used to describe the same thing. A rem
 for the local repository. You can create more upstream repositories using 'git remote add' but only one will be the 
 origin repository. When you do command to pull/push from the remote repo, the 'origin' repository is used. 
 
-# Adding and Committing a change
+## Adding and Committing a change
 
 There are two "areas" that can be referred to when making changes. The Local repository, which can be referred to as the "working area", that
 you can make changes too, and a "staging" area, where commits are recorded in order to prepare them to be pushed to the remote 'origin' 
 repository. 
 
-# Checking for changes 
+## Checking for changes 
 
 You can use the *git status* command to check for changes between the repository and your working area. This will identify the files that 
 you have changed, that need to be committed to the remote 'origin' repository. 
